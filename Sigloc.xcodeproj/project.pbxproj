@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69476E8C21EFF70A00CD5367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69476E8B21EFF70A00CD5367 /* AppDelegate.swift */; };
+		69476E8E21EFF70A00CD5367 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69476E8D21EFF70A00CD5367 /* ViewController.swift */; };
+		69476E9121EFF70A00CD5367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69476E8F21EFF70A00CD5367 /* Main.storyboard */; };
+		69476E9321EFF70B00CD5367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69476E9221EFF70B00CD5367 /* Assets.xcassets */; };
+		69476E9621EFF70B00CD5367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69476E9421EFF70B00CD5367 /* LaunchScreen.storyboard */; };
+		69476EA121EFF70B00CD5367 /* SiglocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69476EA021EFF70B00CD5367 /* SiglocTests.swift */; };
+		69476EAC21EFF70B00CD5367 /* SiglocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69476EAB21EFF70B00CD5367 /* SiglocUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69476E9D21EFF70B00CD5367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69476E8021EFF70A00CD5367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69476E8721EFF70A00CD5367;
+			remoteInfo = Sigloc;
+		};
+		69476EA821EFF70B00CD5367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69476E8021EFF70A00CD5367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69476E8721EFF70A00CD5367;
+			remoteInfo = Sigloc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69476E8821EFF70A00CD5367 /* Sigloc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sigloc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69476E8B21EFF70A00CD5367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69476E8D21EFF70A00CD5367 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69476E9021EFF70A00CD5367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69476E9221EFF70B00CD5367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69476E9521EFF70B00CD5367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69476E9721EFF70B00CD5367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69476E9C21EFF70B00CD5367 /* SiglocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiglocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69476EA021EFF70B00CD5367 /* SiglocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiglocTests.swift; sourceTree = "<group>"; };
+		69476EA221EFF70B00CD5367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69476EA721EFF70B00CD5367 /* SiglocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiglocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69476EAB21EFF70B00CD5367 /* SiglocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiglocUITests.swift; sourceTree = "<group>"; };
+		69476EAD21EFF70B00CD5367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69476E8521EFF70A00CD5367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69476E9921EFF70B00CD5367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69476EA421EFF70B00CD5367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69476E7F21EFF70A00CD5367 = {
+			isa = PBXGroup;
+			children = (
+				69476E8A21EFF70A00CD5367 /* Sigloc */,
+				69476E9F21EFF70B00CD5367 /* SiglocTests */,
+				69476EAA21EFF70B00CD5367 /* SiglocUITests */,
+				69476E8921EFF70A00CD5367 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69476E8921EFF70A00CD5367 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69476E8821EFF70A00CD5367 /* Sigloc.app */,
+				69476E9C21EFF70B00CD5367 /* SiglocTests.xctest */,
+				69476EA721EFF70B00CD5367 /* SiglocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69476E8A21EFF70A00CD5367 /* Sigloc */ = {
+			isa = PBXGroup;
+			children = (
+				69476E8B21EFF70A00CD5367 /* AppDelegate.swift */,
+				69476E8D21EFF70A00CD5367 /* ViewController.swift */,
+				69476E8F21EFF70A00CD5367 /* Main.storyboard */,
+				69476E9221EFF70B00CD5367 /* Assets.xcassets */,
+				69476E9421EFF70B00CD5367 /* LaunchScreen.storyboard */,
+				69476E9721EFF70B00CD5367 /* Info.plist */,
+			);
+			path = Sigloc;
+			sourceTree = "<group>";
+		};
+		69476E9F21EFF70B00CD5367 /* SiglocTests */ = {
+			isa = PBXGroup;
+			children = (
+				69476EA021EFF70B00CD5367 /* SiglocTests.swift */,
+				69476EA221EFF70B00CD5367 /* Info.plist */,
+			);
+			path = SiglocTests;
+			sourceTree = "<group>";
+		};
+		69476EAA21EFF70B00CD5367 /* SiglocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69476EAB21EFF70B00CD5367 /* SiglocUITests.swift */,
+				69476EAD21EFF70B00CD5367 /* Info.plist */,
+			);
+			path = SiglocUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69476E8721EFF70A00CD5367 /* Sigloc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69476EB021EFF70B00CD5367 /* Build configuration list for PBXNativeTarget "Sigloc" */;
+			buildPhases = (
+				69476E8421EFF70A00CD5367 /* Sources */,
+				69476E8521EFF70A00CD5367 /* Frameworks */,
+				69476E8621EFF70A00CD5367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sigloc;
+			productName = Sigloc;
+			productReference = 69476E8821EFF70A00CD5367 /* Sigloc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69476E9B21EFF70B00CD5367 /* SiglocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69476EB321EFF70B00CD5367 /* Build configuration list for PBXNativeTarget "SiglocTests" */;
+			buildPhases = (
+				69476E9821EFF70B00CD5367 /* Sources */,
+				69476E9921EFF70B00CD5367 /* Frameworks */,
+				69476E9A21EFF70B00CD5367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69476E9E21EFF70B00CD5367 /* PBXTargetDependency */,
+			);
+			name = SiglocTests;
+			productName = SiglocTests;
+			productReference = 69476E9C21EFF70B00CD5367 /* SiglocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69476EA621EFF70B00CD5367 /* SiglocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69476EB621EFF70B00CD5367 /* Build configuration list for PBXNativeTarget "SiglocUITests" */;
+			buildPhases = (
+				69476EA321EFF70B00CD5367 /* Sources */,
+				69476EA421EFF70B00CD5367 /* Frameworks */,
+				69476EA521EFF70B00CD5367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69476EA921EFF70B00CD5367 /* PBXTargetDependency */,
+			);
+			name = SiglocUITests;
+			productName = SiglocUITests;
+			productReference = 69476EA721EFF70B00CD5367 /* SiglocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69476E8021EFF70A00CD5367 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = jay;
+				TargetAttributes = {
+					69476E8721EFF70A00CD5367 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					69476E9B21EFF70B00CD5367 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 69476E8721EFF70A00CD5367;
+					};
+					69476EA621EFF70B00CD5367 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 69476E8721EFF70A00CD5367;
+					};
+				};
+			};
+			buildConfigurationList = 69476E8321EFF70A00CD5367 /* Build configuration list for PBXProject "Sigloc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69476E7F21EFF70A00CD5367;
+			productRefGroup = 69476E8921EFF70A00CD5367 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69476E8721EFF70A00CD5367 /* Sigloc */,
+				69476E9B21EFF70B00CD5367 /* SiglocTests */,
+				69476EA621EFF70B00CD5367 /* SiglocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69476E8621EFF70A00CD5367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69476E9621EFF70B00CD5367 /* LaunchScreen.storyboard in Resources */,
+				69476E9321EFF70B00CD5367 /* Assets.xcassets in Resources */,
+				69476E9121EFF70A00CD5367 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69476E9A21EFF70B00CD5367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69476EA521EFF70B00CD5367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69476E8421EFF70A00CD5367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69476E8E21EFF70A00CD5367 /* ViewController.swift in Sources */,
+				69476E8C21EFF70A00CD5367 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69476E9821EFF70B00CD5367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69476EA121EFF70B00CD5367 /* SiglocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69476EA321EFF70B00CD5367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69476EAC21EFF70B00CD5367 /* SiglocUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69476E9E21EFF70B00CD5367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69476E8721EFF70A00CD5367 /* Sigloc */;
+			targetProxy = 69476E9D21EFF70B00CD5367 /* PBXContainerItemProxy */;
+		};
+		69476EA921EFF70B00CD5367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69476E8721EFF70A00CD5367 /* Sigloc */;
+			targetProxy = 69476EA821EFF70B00CD5367 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69476E8F21EFF70A00CD5367 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69476E9021EFF70A00CD5367 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69476E9421EFF70B00CD5367 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69476E9521EFF70B00CD5367 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69476EAE21EFF70B00CD5367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69476EAF21EFF70B00CD5367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69476EB121EFF70B00CD5367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sigloc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.Sigloc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69476EB221EFF70B00CD5367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sigloc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.Sigloc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69476EB421EFF70B00CD5367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SiglocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.SiglocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sigloc.app/Sigloc";
+			};
+			name = Debug;
+		};
+		69476EB521EFF70B00CD5367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SiglocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.SiglocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sigloc.app/Sigloc";
+			};
+			name = Release;
+		};
+		69476EB721EFF70B00CD5367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SiglocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.SiglocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sigloc;
+			};
+			name = Debug;
+		};
+		69476EB821EFF70B00CD5367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SiglocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jay.SiglocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sigloc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69476E8321EFF70A00CD5367 /* Build configuration list for PBXProject "Sigloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69476EAE21EFF70B00CD5367 /* Debug */,
+				69476EAF21EFF70B00CD5367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69476EB021EFF70B00CD5367 /* Build configuration list for PBXNativeTarget "Sigloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69476EB121EFF70B00CD5367 /* Debug */,
+				69476EB221EFF70B00CD5367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69476EB321EFF70B00CD5367 /* Build configuration list for PBXNativeTarget "SiglocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69476EB421EFF70B00CD5367 /* Debug */,
+				69476EB521EFF70B00CD5367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69476EB621EFF70B00CD5367 /* Build configuration list for PBXNativeTarget "SiglocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69476EB721EFF70B00CD5367 /* Debug */,
+				69476EB821EFF70B00CD5367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69476E8021EFF70A00CD5367 /* Project object */;
+}
