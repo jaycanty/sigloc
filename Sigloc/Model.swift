@@ -15,6 +15,7 @@ class Model {
         if let data = UserDefaults.standard.object(forKey: key) as? Data,
             let locs = try? NSKeyedUnarchiver.unarchivedObject(ofClasses: [NSArray.self, Location.self], from: data) as? [Location] {
             locations = locs ?? [Location]()
+            printLocations()
         }
     }
     let key = "LOCATION-KEY"
@@ -44,6 +45,25 @@ class Model {
     private func save() {
         if let data = try? NSKeyedArchiver.archivedData(withRootObject: locations, requiringSecureCoding: false) {
             UserDefaults.standard.set(data, forKey: key)
+        }
+    }
+    
+    private func printLocations() {
+        for location in locations {
+            var log = ""
+            if let placemark = location.placemark {
+                log = String(format: "%@ %@\n%@ - %@",
+                             placemark.thoroughfare ?? "unknown",
+                             placemark.subAdministrativeArea ?? "unknown",
+                             placemark.administrativeArea ?? "unknown",
+                             location.location.timestamp.description(with: NSLocale.current))
+            } else {
+                log = String(format: "%d, %d\n%@",
+                             location.location.coordinate.latitude,
+                             location.location.coordinate.longitude,
+                             location.location.timestamp.description(with: NSLocale.current))
+            }
+            print(log)
         }
     }
 }
