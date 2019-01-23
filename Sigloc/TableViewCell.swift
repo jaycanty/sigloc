@@ -35,15 +35,16 @@ struct Display {
             let location = cell.location {
             var log = ""
             if let placemark = location.placemark {
-                log = String(format: "%@, %@ - %@",
+                log = String(format: "%@ %@\n%@ - %@",
+                             placemark.thoroughfare ?? "unknown",
                              placemark.subAdministrativeArea ?? "unknown",
                              placemark.administrativeArea ?? "unknown",
-                             location.timestamp.description(with: NSLocale.current))
+                             location.location.timestamp.description(with: NSLocale.current))
             } else {
-                log = String(format: "%d, %d - %@",
+                log = String(format: "%d, %d\n%@",
                              location.location.coordinate.latitude,
                              location.location.coordinate.longitude,
-                             location.timestamp.description(with: NSLocale.current))
+                             location.location.timestamp.description(with: NSLocale.current))
             }
             cell.label.text = log
         }
