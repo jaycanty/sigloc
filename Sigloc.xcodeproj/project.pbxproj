@@ -14,6 +14,10 @@
 		69476E9621EFF70B00CD5367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69476E9421EFF70B00CD5367 /* LaunchScreen.storyboard */; };
 		69476EA121EFF70B00CD5367 /* SiglocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69476EA021EFF70B00CD5367 /* SiglocTests.swift */; };
 		69476EAC21EFF70B00CD5367 /* SiglocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69476EAB21EFF70B00CD5367 /* SiglocUITests.swift */; };
+		69476EBB21EFF73C00CD5367 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69476EBA21EFF73B00CD5367 /* CoreLocation.framework */; };
+		6978CE3221F6C11A002D8A96 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6978CE3121F6C11A002D8A96 /* TableViewCell.swift */; };
+		6978CE3421F6C311002D8A96 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6978CE3321F6C311002D8A96 /* Model.swift */; };
+		6978CE3621F77793002D8A96 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6978CE3521F77793002D8A96 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,11 @@
 		69476EA721EFF70B00CD5367 /* SiglocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiglocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69476EAB21EFF70B00CD5367 /* SiglocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiglocUITests.swift; sourceTree = "<group>"; };
 		69476EAD21EFF70B00CD5367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69476EBA21EFF73B00CD5367 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6978CE2B21F69063002D8A96 /* summit-nyc.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "summit-nyc.gpx"; path = "../../Desktop/summit-nyc.gpx"; sourceTree = "<group>"; };
+		6978CE3121F6C11A002D8A96 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		6978CE3321F6C311002D8A96 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6978CE3521F77793002D8A96 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69476EBB21EFF73C00CD5367 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +87,12 @@
 		69476E7F21EFF70A00CD5367 = {
 			isa = PBXGroup;
 			children = (
+				6978CE2B21F69063002D8A96 /* summit-nyc.gpx */,
 				69476E8A21EFF70A00CD5367 /* Sigloc */,
 				69476E9F21EFF70B00CD5367 /* SiglocTests */,
 				69476EAA21EFF70B00CD5367 /* SiglocUITests */,
 				69476E8921EFF70A00CD5367 /* Products */,
+				69476EB921EFF73B00CD5367 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +115,9 @@
 				69476E9221EFF70B00CD5367 /* Assets.xcassets */,
 				69476E9421EFF70B00CD5367 /* LaunchScreen.storyboard */,
 				69476E9721EFF70B00CD5367 /* Info.plist */,
+				6978CE3121F6C11A002D8A96 /* TableViewCell.swift */,
+				6978CE3321F6C311002D8A96 /* Model.swift */,
+				6978CE3521F77793002D8A96 /* Location.swift */,
 			);
 			path = Sigloc;
 			sourceTree = "<group>";
@@ -123,6 +138,14 @@
 				69476EAD21EFF70B00CD5367 /* Info.plist */,
 			);
 			path = SiglocUITests;
+			sourceTree = "<group>";
+		};
+		69476EB921EFF73B00CD5367 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69476EBA21EFF73B00CD5367 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +216,11 @@
 				TargetAttributes = {
 					69476E8721EFF70A00CD5367 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					69476E9B21EFF70B00CD5367 = {
 						CreatedOnToolsVersion = 10.1;
@@ -256,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6978CE3221F6C11A002D8A96 /* TableViewCell.swift in Sources */,
 				69476E8E21EFF70A00CD5367 /* ViewController.swift in Sources */,
+				6978CE3621F77793002D8A96 /* Location.swift in Sources */,
 				69476E8C21EFF70A00CD5367 /* AppDelegate.swift in Sources */,
+				6978CE3421F6C311002D8A96 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P29986982Q;
 				INFOPLIST_FILE = Sigloc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +483,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P29986982Q;
 				INFOPLIST_FILE = Sigloc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
